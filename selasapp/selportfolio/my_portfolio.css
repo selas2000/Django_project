@@ -1,0 +1,93 @@
+{% extends 'myportfolio.html' %}
+{% load static %}
+{% block stylesheets %}
+<style>
+        .img-container img {
+            border-radius: 50%;
+            margin-bottom: 2rem;
+        }
+        .img-container {
+            margin-top: 2rem;
+        }
+        .personal {
+            padding: 3rem;
+        }
+        .detail {
+            padding: 3rem;
+        }
+        .detail i {
+            margin-right: 1rem;
+            color: #15aabf;
+        }
+        b {
+            padding-right: 10px;
+        }
+        .card {
+            margin-top: 6rem;
+        }
+        ul {
+            position: relative;
+            right: 0;
+        }
+        .useful_link a {
+            color: #red
+            margin: 1rem;
+        }
+        .useful_link a:hover {
+            color: #000;
+        }
+        .profile_name h1,
+        h5 {
+            margin: 1rem;
+        }
+    </style>
+    {% endblock stylesheets %}
+    
+    {% block headscript %}
+    {% endblock headscript %}
+
+    {% extends 'selporttfolio/myportfolio.html' %}
+    {% load static %}
+     
+    {% block stylesheets %}
+    <style>
+        .box {
+            margin-top: 6rem;
+        }
+        ul {
+            position: relative;
+            right: 0;
+        }
+        .row input {
+            margin-bottom: 2rem;
+            border: 0;
+            box-shadow: 0 important;
+        }
+        .row textarea {
+            margin-bottom: 2rem;
+            border: 0;
+        }
+        .box h1 {
+            margin-bottom: 5rem;
+        }
+        .icons {
+            margin-top: 3rem;
+        }
+        .copy {
+            margin-top: 1rem;
+        }
+        .icons a {
+            color: #ccc;
+            margin: 1rem;
+        }
+        .icons a:hover {
+            color: #000;
+        }
+    </style>
+    {% endblock stylesheets %}
+     
+    {% block headscript %}
+    {% endblock headscript %}
+     
+    {% block content %}
+        
